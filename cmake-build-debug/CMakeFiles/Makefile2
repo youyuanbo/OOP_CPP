@@ -64,6 +64,43 @@ CMAKE_SOURCE_DIR = E:\workspace\Clion\Cpp\OOP_CPP
 CMAKE_BINARY_DIR = E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/exp2_2.dir
+
+# All Build rule for target.
+CMakeFiles/exp2_2.dir/all:
+	$(MAKE) -f CMakeFiles\exp2_2.dir\build.make CMakeFiles/exp2_2.dir/depend
+	$(MAKE) -f CMakeFiles\exp2_2.dir\build.make CMakeFiles/exp2_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target exp2_2"
+.PHONY : CMakeFiles/exp2_2.dir/all
+
+# Include target in all.
+all: CMakeFiles/exp2_2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exp2_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp2_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/exp2_2.dir/rule
+
+# Convenience name for target.
+exp2_2: CMakeFiles/exp2_2.dir/rule
+
+.PHONY : exp2_2
+
+# clean rule for target.
+CMakeFiles/exp2_2.dir/clean:
+	$(MAKE) -f CMakeFiles\exp2_2.dir\build.make CMakeFiles/exp2_2.dir/clean
+.PHONY : CMakeFiles/exp2_2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/exp2_2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/OOP_CPP.dir
 
 # All Build rule for target.
@@ -212,6 +249,80 @@ clean: CMakeFiles/exp1_3.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/student_main.dir
+
+# All Build rule for target.
+CMakeFiles/student_main.dir/all:
+	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/depend
+	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target student_main"
+.PHONY : CMakeFiles/student_main.dir/all
+
+# Include target in all.
+all: CMakeFiles/student_main.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/student_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/student_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/student_main.dir/rule
+
+# Convenience name for target.
+student_main: CMakeFiles/student_main.dir/rule
+
+.PHONY : student_main
+
+# clean rule for target.
+CMakeFiles/student_main.dir/clean:
+	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/clean
+.PHONY : CMakeFiles/student_main.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/student_main.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/student.dir
+
+# All Build rule for target.
+CMakeFiles/student.dir/all:
+	$(MAKE) -f CMakeFiles\student.dir\build.make CMakeFiles/student.dir/depend
+	$(MAKE) -f CMakeFiles\student.dir\build.make CMakeFiles/student.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target student"
+.PHONY : CMakeFiles/student.dir/all
+
+# Include target in all.
+all: CMakeFiles/student.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/student.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/student.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/student.dir/rule
+
+# Convenience name for target.
+student: CMakeFiles/student.dir/rule
+
+.PHONY : student
+
+# clean rule for target.
+CMakeFiles/student.dir/clean:
+	$(MAKE) -f CMakeFiles\student.dir\build.make CMakeFiles/student.dir/clean
+.PHONY : CMakeFiles/student.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/student.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/exp1_4.dir
 
 # All Build rule for target.
@@ -245,6 +356,43 @@ CMakeFiles/exp1_4.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/exp1_4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exp2_1.dir
+
+# All Build rule for target.
+CMakeFiles/exp2_1.dir/all:
+	$(MAKE) -f CMakeFiles\exp2_1.dir\build.make CMakeFiles/exp2_1.dir/depend
+	$(MAKE) -f CMakeFiles\exp2_1.dir\build.make CMakeFiles/exp2_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target exp2_1"
+.PHONY : CMakeFiles/exp2_1.dir/all
+
+# Include target in all.
+all: CMakeFiles/exp2_1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exp2_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp2_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/exp2_1.dir/rule
+
+# Convenience name for target.
+exp2_1: CMakeFiles/exp2_1.dir/rule
+
+.PHONY : exp2_1
+
+# clean rule for target.
+CMakeFiles/exp2_1.dir/clean:
+	$(MAKE) -f CMakeFiles\exp2_1.dir\build.make CMakeFiles/exp2_1.dir/clean
+.PHONY : CMakeFiles/exp2_1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/exp2_1.dir/clean
 
 .PHONY : clean
 

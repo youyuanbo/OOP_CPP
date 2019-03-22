@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -108,6 +108,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named exp2_2
+
+# Build rule for target.
+exp2_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp2_2
+.PHONY : exp2_2
+
+# fast build rule for target.
+exp2_2/fast:
+	$(MAKE) -f CMakeFiles\exp2_2.dir\build.make CMakeFiles/exp2_2.dir/build
+.PHONY : exp2_2/fast
 
 #=============================================================================
 # Target rules for targets named OOP_CPP
@@ -162,6 +175,32 @@ exp1_3/fast:
 .PHONY : exp1_3/fast
 
 #=============================================================================
+# Target rules for targets named student_main
+
+# Build rule for target.
+student_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 student_main
+.PHONY : student_main
+
+# fast build rule for target.
+student_main/fast:
+	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/build
+.PHONY : student_main/fast
+
+#=============================================================================
+# Target rules for targets named student
+
+# Build rule for target.
+student: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 student
+.PHONY : student
+
+# fast build rule for target.
+student/fast:
+	$(MAKE) -f CMakeFiles\student.dir\build.make CMakeFiles/student.dir/build
+.PHONY : student/fast
+
+#=============================================================================
 # Target rules for targets named exp1_4
 
 # Build rule for target.
@@ -173,6 +212,19 @@ exp1_4: cmake_check_build_system
 exp1_4/fast:
 	$(MAKE) -f CMakeFiles\exp1_4.dir\build.make CMakeFiles/exp1_4.dir/build
 .PHONY : exp1_4/fast
+
+#=============================================================================
+# Target rules for targets named exp2_1
+
+# Build rule for target.
+exp2_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp2_1
+.PHONY : exp2_1
+
+# fast build rule for target.
+exp2_1/fast:
+	$(MAKE) -f CMakeFiles\exp2_1.dir\build.make CMakeFiles/exp2_1.dir/build
+.PHONY : exp2_1/fast
 
 exp1/exp1-2.obj: exp1/exp1-2.cpp.obj
 
@@ -282,6 +334,114 @@ exp1/exp1_1.cpp.s:
 	$(MAKE) -f CMakeFiles\exp1_1.dir\build.make CMakeFiles/exp1_1.dir/exp1/exp1_1.cpp.s
 .PHONY : exp1/exp1_1.cpp.s
 
+exp2/exp2_1.obj: exp2/exp2_1.cpp.obj
+
+.PHONY : exp2/exp2_1.obj
+
+# target to build an object file
+exp2/exp2_1.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp2_1.dir\build.make CMakeFiles/exp2_1.dir/exp2/exp2_1.cpp.obj
+.PHONY : exp2/exp2_1.cpp.obj
+
+exp2/exp2_1.i: exp2/exp2_1.cpp.i
+
+.PHONY : exp2/exp2_1.i
+
+# target to preprocess a source file
+exp2/exp2_1.cpp.i:
+	$(MAKE) -f CMakeFiles\exp2_1.dir\build.make CMakeFiles/exp2_1.dir/exp2/exp2_1.cpp.i
+.PHONY : exp2/exp2_1.cpp.i
+
+exp2/exp2_1.s: exp2/exp2_1.cpp.s
+
+.PHONY : exp2/exp2_1.s
+
+# target to generate assembly for a file
+exp2/exp2_1.cpp.s:
+	$(MAKE) -f CMakeFiles\exp2_1.dir\build.make CMakeFiles/exp2_1.dir/exp2/exp2_1.cpp.s
+.PHONY : exp2/exp2_1.cpp.s
+
+exp2/exp2_2.obj: exp2/exp2_2.cpp.obj
+
+.PHONY : exp2/exp2_2.obj
+
+# target to build an object file
+exp2/exp2_2.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp2_2.dir\build.make CMakeFiles/exp2_2.dir/exp2/exp2_2.cpp.obj
+.PHONY : exp2/exp2_2.cpp.obj
+
+exp2/exp2_2.i: exp2/exp2_2.cpp.i
+
+.PHONY : exp2/exp2_2.i
+
+# target to preprocess a source file
+exp2/exp2_2.cpp.i:
+	$(MAKE) -f CMakeFiles\exp2_2.dir\build.make CMakeFiles/exp2_2.dir/exp2/exp2_2.cpp.i
+.PHONY : exp2/exp2_2.cpp.i
+
+exp2/exp2_2.s: exp2/exp2_2.cpp.s
+
+.PHONY : exp2/exp2_2.s
+
+# target to generate assembly for a file
+exp2/exp2_2.cpp.s:
+	$(MAKE) -f CMakeFiles\exp2_2.dir\build.make CMakeFiles/exp2_2.dir/exp2/exp2_2.cpp.s
+.PHONY : exp2/exp2_2.cpp.s
+
+exp2/student.obj: exp2/student.cpp.obj
+
+.PHONY : exp2/student.obj
+
+# target to build an object file
+exp2/student.cpp.obj:
+	$(MAKE) -f CMakeFiles\student.dir\build.make CMakeFiles/student.dir/exp2/student.cpp.obj
+.PHONY : exp2/student.cpp.obj
+
+exp2/student.i: exp2/student.cpp.i
+
+.PHONY : exp2/student.i
+
+# target to preprocess a source file
+exp2/student.cpp.i:
+	$(MAKE) -f CMakeFiles\student.dir\build.make CMakeFiles/student.dir/exp2/student.cpp.i
+.PHONY : exp2/student.cpp.i
+
+exp2/student.s: exp2/student.cpp.s
+
+.PHONY : exp2/student.s
+
+# target to generate assembly for a file
+exp2/student.cpp.s:
+	$(MAKE) -f CMakeFiles\student.dir\build.make CMakeFiles/student.dir/exp2/student.cpp.s
+.PHONY : exp2/student.cpp.s
+
+exp2/student_main.obj: exp2/student_main.cpp.obj
+
+.PHONY : exp2/student_main.obj
+
+# target to build an object file
+exp2/student_main.cpp.obj:
+	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/exp2/student_main.cpp.obj
+.PHONY : exp2/student_main.cpp.obj
+
+exp2/student_main.i: exp2/student_main.cpp.i
+
+.PHONY : exp2/student_main.i
+
+# target to preprocess a source file
+exp2/student_main.cpp.i:
+	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/exp2/student_main.cpp.i
+.PHONY : exp2/student_main.cpp.i
+
+exp2/student_main.s: exp2/student_main.cpp.s
+
+.PHONY : exp2/student_main.s
+
+# target to generate assembly for a file
+exp2/student_main.cpp.s:
+	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/exp2/student_main.cpp.s
+.PHONY : exp2/student_main.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -315,13 +475,17 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... exp2_2
 	@echo ... OOP_CPP
 	@echo ... exp1_1
 	@echo ... exp1_2
-	@echo ... rebuild_cache
 	@echo ... exp1_3
-	@echo ... edit_cache
+	@echo ... student_main
+	@echo ... student
 	@echo ... exp1_4
+	@echo ... exp2_1
+	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... exp1/exp1-2.obj
 	@echo ... exp1/exp1-2.i
 	@echo ... exp1/exp1-2.s
@@ -334,6 +498,18 @@ help:
 	@echo ... exp1/exp1_1.obj
 	@echo ... exp1/exp1_1.i
 	@echo ... exp1/exp1_1.s
+	@echo ... exp2/exp2_1.obj
+	@echo ... exp2/exp2_1.i
+	@echo ... exp2/exp2_1.s
+	@echo ... exp2/exp2_2.obj
+	@echo ... exp2/exp2_2.i
+	@echo ... exp2/exp2_2.s
+	@echo ... exp2/student.obj
+	@echo ... exp2/student.i
+	@echo ... exp2/student.s
+	@echo ... exp2/student_main.obj
+	@echo ... exp2/student_main.i
+	@echo ... exp2/student_main.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

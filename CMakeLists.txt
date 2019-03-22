@@ -8,3 +8,8 @@ add_executable(exp1_1 exp1/exp1_1.cpp)
 add_executable(exp1_2 exp1/exp1-2.cpp)
 add_executable(exp1_3 exp1/exp1-3.cpp)
 add_executable(exp1_4 exp1/exp1-4.cpp)
+
+add_executable(exp2_1 exp2/exp2_1.cpp)
+add_executable(exp2_2 exp2/exp2_2.cpp)
+add_executable(student exp2/student.cpp)
+add_executable(student_main exp2/student_main.cpp exp2/student.h)

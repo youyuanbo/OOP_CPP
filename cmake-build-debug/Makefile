@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -122,6 +122,166 @@ OOP_CPP/fast:
 	$(MAKE) -f CMakeFiles\OOP_CPP.dir\build.make CMakeFiles/OOP_CPP.dir/build
 .PHONY : OOP_CPP/fast
 
+#=============================================================================
+# Target rules for targets named exp1_1
+
+# Build rule for target.
+exp1_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp1_1
+.PHONY : exp1_1
+
+# fast build rule for target.
+exp1_1/fast:
+	$(MAKE) -f CMakeFiles\exp1_1.dir\build.make CMakeFiles/exp1_1.dir/build
+.PHONY : exp1_1/fast
+
+#=============================================================================
+# Target rules for targets named exp1_2
+
+# Build rule for target.
+exp1_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp1_2
+.PHONY : exp1_2
+
+# fast build rule for target.
+exp1_2/fast:
+	$(MAKE) -f CMakeFiles\exp1_2.dir\build.make CMakeFiles/exp1_2.dir/build
+.PHONY : exp1_2/fast
+
+#=============================================================================
+# Target rules for targets named exp1_3
+
+# Build rule for target.
+exp1_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp1_3
+.PHONY : exp1_3
+
+# fast build rule for target.
+exp1_3/fast:
+	$(MAKE) -f CMakeFiles\exp1_3.dir\build.make CMakeFiles/exp1_3.dir/build
+.PHONY : exp1_3/fast
+
+#=============================================================================
+# Target rules for targets named exp1_4
+
+# Build rule for target.
+exp1_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp1_4
+.PHONY : exp1_4
+
+# fast build rule for target.
+exp1_4/fast:
+	$(MAKE) -f CMakeFiles\exp1_4.dir\build.make CMakeFiles/exp1_4.dir/build
+.PHONY : exp1_4/fast
+
+exp1/exp1-2.obj: exp1/exp1-2.cpp.obj
+
+.PHONY : exp1/exp1-2.obj
+
+# target to build an object file
+exp1/exp1-2.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp1_2.dir\build.make CMakeFiles/exp1_2.dir/exp1/exp1-2.cpp.obj
+.PHONY : exp1/exp1-2.cpp.obj
+
+exp1/exp1-2.i: exp1/exp1-2.cpp.i
+
+.PHONY : exp1/exp1-2.i
+
+# target to preprocess a source file
+exp1/exp1-2.cpp.i:
+	$(MAKE) -f CMakeFiles\exp1_2.dir\build.make CMakeFiles/exp1_2.dir/exp1/exp1-2.cpp.i
+.PHONY : exp1/exp1-2.cpp.i
+
+exp1/exp1-2.s: exp1/exp1-2.cpp.s
+
+.PHONY : exp1/exp1-2.s
+
+# target to generate assembly for a file
+exp1/exp1-2.cpp.s:
+	$(MAKE) -f CMakeFiles\exp1_2.dir\build.make CMakeFiles/exp1_2.dir/exp1/exp1-2.cpp.s
+.PHONY : exp1/exp1-2.cpp.s
+
+exp1/exp1-3.obj: exp1/exp1-3.cpp.obj
+
+.PHONY : exp1/exp1-3.obj
+
+# target to build an object file
+exp1/exp1-3.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp1_3.dir\build.make CMakeFiles/exp1_3.dir/exp1/exp1-3.cpp.obj
+.PHONY : exp1/exp1-3.cpp.obj
+
+exp1/exp1-3.i: exp1/exp1-3.cpp.i
+
+.PHONY : exp1/exp1-3.i
+
+# target to preprocess a source file
+exp1/exp1-3.cpp.i:
+	$(MAKE) -f CMakeFiles\exp1_3.dir\build.make CMakeFiles/exp1_3.dir/exp1/exp1-3.cpp.i
+.PHONY : exp1/exp1-3.cpp.i
+
+exp1/exp1-3.s: exp1/exp1-3.cpp.s
+
+.PHONY : exp1/exp1-3.s
+
+# target to generate assembly for a file
+exp1/exp1-3.cpp.s:
+	$(MAKE) -f CMakeFiles\exp1_3.dir\build.make CMakeFiles/exp1_3.dir/exp1/exp1-3.cpp.s
+.PHONY : exp1/exp1-3.cpp.s
+
+exp1/exp1-4.obj: exp1/exp1-4.cpp.obj
+
+.PHONY : exp1/exp1-4.obj
+
+# target to build an object file
+exp1/exp1-4.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp1_4.dir\build.make CMakeFiles/exp1_4.dir/exp1/exp1-4.cpp.obj
+.PHONY : exp1/exp1-4.cpp.obj
+
+exp1/exp1-4.i: exp1/exp1-4.cpp.i
+
+.PHONY : exp1/exp1-4.i
+
+# target to preprocess a source file
+exp1/exp1-4.cpp.i:
+	$(MAKE) -f CMakeFiles\exp1_4.dir\build.make CMakeFiles/exp1_4.dir/exp1/exp1-4.cpp.i
+.PHONY : exp1/exp1-4.cpp.i
+
+exp1/exp1-4.s: exp1/exp1-4.cpp.s
+
+.PHONY : exp1/exp1-4.s
+
+# target to generate assembly for a file
+exp1/exp1-4.cpp.s:
+	$(MAKE) -f CMakeFiles\exp1_4.dir\build.make CMakeFiles/exp1_4.dir/exp1/exp1-4.cpp.s
+.PHONY : exp1/exp1-4.cpp.s
+
+exp1/exp1_1.obj: exp1/exp1_1.cpp.obj
+
+.PHONY : exp1/exp1_1.obj
+
+# target to build an object file
+exp1/exp1_1.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp1_1.dir\build.make CMakeFiles/exp1_1.dir/exp1/exp1_1.cpp.obj
+.PHONY : exp1/exp1_1.cpp.obj
+
+exp1/exp1_1.i: exp1/exp1_1.cpp.i
+
+.PHONY : exp1/exp1_1.i
+
+# target to preprocess a source file
+exp1/exp1_1.cpp.i:
+	$(MAKE) -f CMakeFiles\exp1_1.dir\build.make CMakeFiles/exp1_1.dir/exp1/exp1_1.cpp.i
+.PHONY : exp1/exp1_1.cpp.i
+
+exp1/exp1_1.s: exp1/exp1_1.cpp.s
+
+.PHONY : exp1/exp1_1.s
+
+# target to generate assembly for a file
+exp1/exp1_1.cpp.s:
+	$(MAKE) -f CMakeFiles\exp1_1.dir\build.make CMakeFiles/exp1_1.dir/exp1/exp1_1.cpp.s
+.PHONY : exp1/exp1_1.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -156,8 +316,24 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... OOP_CPP
-	@echo ... edit_cache
+	@echo ... exp1_1
+	@echo ... exp1_2
 	@echo ... rebuild_cache
+	@echo ... exp1_3
+	@echo ... edit_cache
+	@echo ... exp1_4
+	@echo ... exp1/exp1-2.obj
+	@echo ... exp1/exp1-2.i
+	@echo ... exp1/exp1-2.s
+	@echo ... exp1/exp1-3.obj
+	@echo ... exp1/exp1-3.i
+	@echo ... exp1/exp1-3.s
+	@echo ... exp1/exp1-4.obj
+	@echo ... exp1/exp1-4.i
+	@echo ... exp1/exp1-4.s
+	@echo ... exp1/exp1_1.obj
+	@echo ... exp1/exp1_1.i
+	@echo ... exp1/exp1_1.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

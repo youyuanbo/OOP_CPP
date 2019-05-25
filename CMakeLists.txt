@@ -22,4 +22,5 @@ add_executable(exp4_2_2 exp4/exp4_2_2.cpp)
 add_executable(exp5-1 exp5/exp5-1.cpp)
 add_executable(exp5-2 exp5/exp5-2.cpp)
 
-add_executable(exp6-1 exp6_1.cpp)
+add_executable(exp6_1 exp6/exp6_1.cpp)
+add_executable(exp6-2 exp6/exp6-2.cpp)

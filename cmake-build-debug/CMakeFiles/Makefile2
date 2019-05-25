@@ -292,7 +292,7 @@ clean: CMakeFiles/exp4_2_2.dir/clean
 CMakeFiles/student_main.dir/all:
 	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/depend
 	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target student_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target student_main"
 .PHONY : CMakeFiles/student_main.dir/all
 
 # Include target in all.
@@ -366,7 +366,7 @@ clean: CMakeFiles/exp4_1.dir/clean
 CMakeFiles/student.dir/all:
 	$(MAKE) -f CMakeFiles\student.dir\build.make CMakeFiles/student.dir/depend
 	$(MAKE) -f CMakeFiles\student.dir\build.make CMakeFiles/student.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target student"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target student"
 .PHONY : CMakeFiles/student.dir/all
 
 # Include target in all.
@@ -582,39 +582,76 @@ clean: CMakeFiles/exp5-2.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/exp6-1.dir
+# Target rules for target CMakeFiles/exp6_1.dir
 
 # All Build rule for target.
-CMakeFiles/exp6-1.dir/all:
-	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/depend
-	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target exp6-1"
-.PHONY : CMakeFiles/exp6-1.dir/all
+CMakeFiles/exp6_1.dir/all:
+	$(MAKE) -f CMakeFiles\exp6_1.dir\build.make CMakeFiles/exp6_1.dir/depend
+	$(MAKE) -f CMakeFiles\exp6_1.dir\build.make CMakeFiles/exp6_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target exp6_1"
+.PHONY : CMakeFiles/exp6_1.dir/all
 
 # Include target in all.
-all: CMakeFiles/exp6-1.dir/all
+all: CMakeFiles/exp6_1.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/exp6-1.dir/rule: cmake_check_build_system
+CMakeFiles/exp6_1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp6-1.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp6_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/exp6-1.dir/rule
+.PHONY : CMakeFiles/exp6_1.dir/rule
 
 # Convenience name for target.
-exp6-1: CMakeFiles/exp6-1.dir/rule
+exp6_1: CMakeFiles/exp6_1.dir/rule
 
-.PHONY : exp6-1
-
-# clean rule for target.
-CMakeFiles/exp6-1.dir/clean:
-	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/clean
-.PHONY : CMakeFiles/exp6-1.dir/clean
+.PHONY : exp6_1
 
 # clean rule for target.
-clean: CMakeFiles/exp6-1.dir/clean
+CMakeFiles/exp6_1.dir/clean:
+	$(MAKE) -f CMakeFiles\exp6_1.dir\build.make CMakeFiles/exp6_1.dir/clean
+.PHONY : CMakeFiles/exp6_1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/exp6_1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exp6-2.dir
+
+# All Build rule for target.
+CMakeFiles/exp6-2.dir/all:
+	$(MAKE) -f CMakeFiles\exp6-2.dir\build.make CMakeFiles/exp6-2.dir/depend
+	$(MAKE) -f CMakeFiles\exp6-2.dir\build.make CMakeFiles/exp6-2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target exp6-2"
+.PHONY : CMakeFiles/exp6-2.dir/all
+
+# Include target in all.
+all: CMakeFiles/exp6-2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exp6-2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp6-2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/exp6-2.dir/rule
+
+# Convenience name for target.
+exp6-2: CMakeFiles/exp6-2.dir/rule
+
+.PHONY : exp6-2
+
+# clean rule for target.
+CMakeFiles/exp6-2.dir/clean:
+	$(MAKE) -f CMakeFiles\exp6-2.dir\build.make CMakeFiles/exp6-2.dir/clean
+.PHONY : CMakeFiles/exp6-2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/exp6-2.dir/clean
 
 .PHONY : clean
 

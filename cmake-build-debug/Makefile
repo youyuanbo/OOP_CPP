@@ -292,17 +292,30 @@ exp5-2/fast:
 .PHONY : exp5-2/fast
 
 #=============================================================================
-# Target rules for targets named exp6-1
+# Target rules for targets named exp6_1
 
 # Build rule for target.
-exp6-1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 exp6-1
-.PHONY : exp6-1
+exp6_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp6_1
+.PHONY : exp6_1
 
 # fast build rule for target.
-exp6-1/fast:
-	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/build
-.PHONY : exp6-1/fast
+exp6_1/fast:
+	$(MAKE) -f CMakeFiles\exp6_1.dir\build.make CMakeFiles/exp6_1.dir/build
+.PHONY : exp6_1/fast
+
+#=============================================================================
+# Target rules for targets named exp6-2
+
+# Build rule for target.
+exp6-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp6-2
+.PHONY : exp6-2
+
+# fast build rule for target.
+exp6-2/fast:
+	$(MAKE) -f CMakeFiles\exp6-2.dir\build.make CMakeFiles/exp6-2.dir/build
+.PHONY : exp6-2/fast
 
 exp1/exp1-2.obj: exp1/exp1-2.cpp.obj
 
@@ -655,32 +668,59 @@ exp5/exp5-2.cpp.s:
 	$(MAKE) -f CMakeFiles\exp5-2.dir\build.make CMakeFiles/exp5-2.dir/exp5/exp5-2.cpp.s
 .PHONY : exp5/exp5-2.cpp.s
 
-exp6_1.obj: exp6_1.cpp.obj
+exp6-2.obj: exp6-2.cpp.obj
 
-.PHONY : exp6_1.obj
+.PHONY : exp6-2.obj
 
 # target to build an object file
-exp6_1.cpp.obj:
-	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/exp6_1.cpp.obj
-.PHONY : exp6_1.cpp.obj
+exp6-2.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp6-2.dir\build.make CMakeFiles/exp6-2.dir/exp6-2.cpp.obj
+.PHONY : exp6-2.cpp.obj
 
-exp6_1.i: exp6_1.cpp.i
+exp6-2.i: exp6-2.cpp.i
 
-.PHONY : exp6_1.i
+.PHONY : exp6-2.i
 
 # target to preprocess a source file
-exp6_1.cpp.i:
-	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/exp6_1.cpp.i
-.PHONY : exp6_1.cpp.i
+exp6-2.cpp.i:
+	$(MAKE) -f CMakeFiles\exp6-2.dir\build.make CMakeFiles/exp6-2.dir/exp6-2.cpp.i
+.PHONY : exp6-2.cpp.i
 
-exp6_1.s: exp6_1.cpp.s
+exp6-2.s: exp6-2.cpp.s
 
-.PHONY : exp6_1.s
+.PHONY : exp6-2.s
 
 # target to generate assembly for a file
-exp6_1.cpp.s:
-	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/exp6_1.cpp.s
-.PHONY : exp6_1.cpp.s
+exp6-2.cpp.s:
+	$(MAKE) -f CMakeFiles\exp6-2.dir\build.make CMakeFiles/exp6-2.dir/exp6-2.cpp.s
+.PHONY : exp6-2.cpp.s
+
+exp6/exp6_1.obj: exp6/exp6_1.cpp.obj
+
+.PHONY : exp6/exp6_1.obj
+
+# target to build an object file
+exp6/exp6_1.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp6_1.dir\build.make CMakeFiles/exp6_1.dir/exp6/exp6_1.cpp.obj
+.PHONY : exp6/exp6_1.cpp.obj
+
+exp6/exp6_1.i: exp6/exp6_1.cpp.i
+
+.PHONY : exp6/exp6_1.i
+
+# target to preprocess a source file
+exp6/exp6_1.cpp.i:
+	$(MAKE) -f CMakeFiles\exp6_1.dir\build.make CMakeFiles/exp6_1.dir/exp6/exp6_1.cpp.i
+.PHONY : exp6/exp6_1.cpp.i
+
+exp6/exp6_1.s: exp6/exp6_1.cpp.s
+
+.PHONY : exp6/exp6_1.s
+
+# target to generate assembly for a file
+exp6/exp6_1.cpp.s:
+	$(MAKE) -f CMakeFiles\exp6_1.dir\build.make CMakeFiles/exp6_1.dir/exp6/exp6_1.cpp.s
+.PHONY : exp6/exp6_1.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -729,7 +769,8 @@ help:
 	@echo ... exp4_2
 	@echo ... exp5-1
 	@echo ... exp5-2
-	@echo ... exp6-1
+	@echo ... exp6_1
+	@echo ... exp6-2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... exp1/exp1-2.obj
@@ -771,9 +812,12 @@ help:
 	@echo ... exp5/exp5-2.obj
 	@echo ... exp5/exp5-2.i
 	@echo ... exp5/exp5-2.s
-	@echo ... exp6_1.obj
-	@echo ... exp6_1.i
-	@echo ... exp6_1.s
+	@echo ... exp6-2.obj
+	@echo ... exp6-2.i
+	@echo ... exp6-2.s
+	@echo ... exp6/exp6_1.obj
+	@echo ... exp6/exp6_1.i
+	@echo ... exp6/exp6_1.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

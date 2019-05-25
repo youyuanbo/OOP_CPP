@@ -59,15 +59,15 @@ include CMakeFiles/OOP_CPP.dir/flags.make
 CMakeFiles/OOP_CPP.dir/main.cpp.obj: CMakeFiles/OOP_CPP.dir/flags.make
 CMakeFiles/OOP_CPP.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP_CPP.dir/main.cpp.obj"
-	D:\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_CPP.dir\main.cpp.obj -c E:\workspace\Clion\Cpp\OOP_CPP\main.cpp
+	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_CPP.dir\main.cpp.obj -c E:\workspace\Clion\Cpp\OOP_CPP\main.cpp
 
 CMakeFiles/OOP_CPP.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_CPP.dir/main.cpp.i"
-	D:\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\workspace\Clion\Cpp\OOP_CPP\main.cpp > CMakeFiles\OOP_CPP.dir\main.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\workspace\Clion\Cpp\OOP_CPP\main.cpp > CMakeFiles\OOP_CPP.dir\main.cpp.i
 
 CMakeFiles/OOP_CPP.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_CPP.dir/main.cpp.s"
-	D:\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\workspace\Clion\Cpp\OOP_CPP\main.cpp -o CMakeFiles\OOP_CPP.dir\main.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\workspace\Clion\Cpp\OOP_CPP\main.cpp -o CMakeFiles\OOP_CPP.dir\main.cpp.s
 
 # Object files for target OOP_CPP
 OOP_CPP_OBJECTS = \

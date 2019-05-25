@@ -1,6 +1,4 @@
-//
-// Created by youyuanbo on 2019/3/22.
-//
+
 
 #include <iostream>
 using namespace std;
@@ -17,8 +15,11 @@ public:
 
 Time Time::inputTime() {
     Time temp;
+    cout<<"请输入小时：";
     cin>>temp.hour;
+    cout<<"请输入分钟：";
     cin>>temp.minute;
+    cout<<"请输入秒：";
     cin>>temp.sec;
     return temp;
 }

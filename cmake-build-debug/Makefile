@@ -175,6 +175,19 @@ exp1_3/fast:
 .PHONY : exp1_3/fast
 
 #=============================================================================
+# Target rules for targets named exp4_2_2
+
+# Build rule for target.
+exp4_2_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp4_2_2
+.PHONY : exp4_2_2
+
+# fast build rule for target.
+exp4_2_2/fast:
+	$(MAKE) -f CMakeFiles\exp4_2_2.dir\build.make CMakeFiles/exp4_2_2.dir/build
+.PHONY : exp4_2_2/fast
+
+#=============================================================================
 # Target rules for targets named student_main
 
 # Build rule for target.
@@ -186,6 +199,19 @@ student_main: cmake_check_build_system
 student_main/fast:
 	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/build
 .PHONY : student_main/fast
+
+#=============================================================================
+# Target rules for targets named exp4_1
+
+# Build rule for target.
+exp4_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp4_1
+.PHONY : exp4_1
+
+# fast build rule for target.
+exp4_1/fast:
+	$(MAKE) -f CMakeFiles\exp4_1.dir\build.make CMakeFiles/exp4_1.dir/build
+.PHONY : exp4_1/fast
 
 #=============================================================================
 # Target rules for targets named student
@@ -225,6 +251,58 @@ exp2_1: cmake_check_build_system
 exp2_1/fast:
 	$(MAKE) -f CMakeFiles\exp2_1.dir\build.make CMakeFiles/exp2_1.dir/build
 .PHONY : exp2_1/fast
+
+#=============================================================================
+# Target rules for targets named exp4_2
+
+# Build rule for target.
+exp4_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp4_2
+.PHONY : exp4_2
+
+# fast build rule for target.
+exp4_2/fast:
+	$(MAKE) -f CMakeFiles\exp4_2.dir\build.make CMakeFiles/exp4_2.dir/build
+.PHONY : exp4_2/fast
+
+#=============================================================================
+# Target rules for targets named exp5-1
+
+# Build rule for target.
+exp5-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp5-1
+.PHONY : exp5-1
+
+# fast build rule for target.
+exp5-1/fast:
+	$(MAKE) -f CMakeFiles\exp5-1.dir\build.make CMakeFiles/exp5-1.dir/build
+.PHONY : exp5-1/fast
+
+#=============================================================================
+# Target rules for targets named exp5-2
+
+# Build rule for target.
+exp5-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp5-2
+.PHONY : exp5-2
+
+# fast build rule for target.
+exp5-2/fast:
+	$(MAKE) -f CMakeFiles\exp5-2.dir\build.make CMakeFiles/exp5-2.dir/build
+.PHONY : exp5-2/fast
+
+#=============================================================================
+# Target rules for targets named exp6-1
+
+# Build rule for target.
+exp6-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp6-1
+.PHONY : exp6-1
+
+# fast build rule for target.
+exp6-1/fast:
+	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/build
+.PHONY : exp6-1/fast
 
 exp1/exp1-2.obj: exp1/exp1-2.cpp.obj
 
@@ -442,6 +520,168 @@ exp2/student_main.cpp.s:
 	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/exp2/student_main.cpp.s
 .PHONY : exp2/student_main.cpp.s
 
+exp4/exp4_1.obj: exp4/exp4_1.cpp.obj
+
+.PHONY : exp4/exp4_1.obj
+
+# target to build an object file
+exp4/exp4_1.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp4_1.dir\build.make CMakeFiles/exp4_1.dir/exp4/exp4_1.cpp.obj
+.PHONY : exp4/exp4_1.cpp.obj
+
+exp4/exp4_1.i: exp4/exp4_1.cpp.i
+
+.PHONY : exp4/exp4_1.i
+
+# target to preprocess a source file
+exp4/exp4_1.cpp.i:
+	$(MAKE) -f CMakeFiles\exp4_1.dir\build.make CMakeFiles/exp4_1.dir/exp4/exp4_1.cpp.i
+.PHONY : exp4/exp4_1.cpp.i
+
+exp4/exp4_1.s: exp4/exp4_1.cpp.s
+
+.PHONY : exp4/exp4_1.s
+
+# target to generate assembly for a file
+exp4/exp4_1.cpp.s:
+	$(MAKE) -f CMakeFiles\exp4_1.dir\build.make CMakeFiles/exp4_1.dir/exp4/exp4_1.cpp.s
+.PHONY : exp4/exp4_1.cpp.s
+
+exp4/exp4_2.obj: exp4/exp4_2.cpp.obj
+
+.PHONY : exp4/exp4_2.obj
+
+# target to build an object file
+exp4/exp4_2.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp4_2.dir\build.make CMakeFiles/exp4_2.dir/exp4/exp4_2.cpp.obj
+.PHONY : exp4/exp4_2.cpp.obj
+
+exp4/exp4_2.i: exp4/exp4_2.cpp.i
+
+.PHONY : exp4/exp4_2.i
+
+# target to preprocess a source file
+exp4/exp4_2.cpp.i:
+	$(MAKE) -f CMakeFiles\exp4_2.dir\build.make CMakeFiles/exp4_2.dir/exp4/exp4_2.cpp.i
+.PHONY : exp4/exp4_2.cpp.i
+
+exp4/exp4_2.s: exp4/exp4_2.cpp.s
+
+.PHONY : exp4/exp4_2.s
+
+# target to generate assembly for a file
+exp4/exp4_2.cpp.s:
+	$(MAKE) -f CMakeFiles\exp4_2.dir\build.make CMakeFiles/exp4_2.dir/exp4/exp4_2.cpp.s
+.PHONY : exp4/exp4_2.cpp.s
+
+exp4/exp4_2_2.obj: exp4/exp4_2_2.cpp.obj
+
+.PHONY : exp4/exp4_2_2.obj
+
+# target to build an object file
+exp4/exp4_2_2.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp4_2_2.dir\build.make CMakeFiles/exp4_2_2.dir/exp4/exp4_2_2.cpp.obj
+.PHONY : exp4/exp4_2_2.cpp.obj
+
+exp4/exp4_2_2.i: exp4/exp4_2_2.cpp.i
+
+.PHONY : exp4/exp4_2_2.i
+
+# target to preprocess a source file
+exp4/exp4_2_2.cpp.i:
+	$(MAKE) -f CMakeFiles\exp4_2_2.dir\build.make CMakeFiles/exp4_2_2.dir/exp4/exp4_2_2.cpp.i
+.PHONY : exp4/exp4_2_2.cpp.i
+
+exp4/exp4_2_2.s: exp4/exp4_2_2.cpp.s
+
+.PHONY : exp4/exp4_2_2.s
+
+# target to generate assembly for a file
+exp4/exp4_2_2.cpp.s:
+	$(MAKE) -f CMakeFiles\exp4_2_2.dir\build.make CMakeFiles/exp4_2_2.dir/exp4/exp4_2_2.cpp.s
+.PHONY : exp4/exp4_2_2.cpp.s
+
+exp5/exp5-1.obj: exp5/exp5-1.cpp.obj
+
+.PHONY : exp5/exp5-1.obj
+
+# target to build an object file
+exp5/exp5-1.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp5-1.dir\build.make CMakeFiles/exp5-1.dir/exp5/exp5-1.cpp.obj
+.PHONY : exp5/exp5-1.cpp.obj
+
+exp5/exp5-1.i: exp5/exp5-1.cpp.i
+
+.PHONY : exp5/exp5-1.i
+
+# target to preprocess a source file
+exp5/exp5-1.cpp.i:
+	$(MAKE) -f CMakeFiles\exp5-1.dir\build.make CMakeFiles/exp5-1.dir/exp5/exp5-1.cpp.i
+.PHONY : exp5/exp5-1.cpp.i
+
+exp5/exp5-1.s: exp5/exp5-1.cpp.s
+
+.PHONY : exp5/exp5-1.s
+
+# target to generate assembly for a file
+exp5/exp5-1.cpp.s:
+	$(MAKE) -f CMakeFiles\exp5-1.dir\build.make CMakeFiles/exp5-1.dir/exp5/exp5-1.cpp.s
+.PHONY : exp5/exp5-1.cpp.s
+
+exp5/exp5-2.obj: exp5/exp5-2.cpp.obj
+
+.PHONY : exp5/exp5-2.obj
+
+# target to build an object file
+exp5/exp5-2.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp5-2.dir\build.make CMakeFiles/exp5-2.dir/exp5/exp5-2.cpp.obj
+.PHONY : exp5/exp5-2.cpp.obj
+
+exp5/exp5-2.i: exp5/exp5-2.cpp.i
+
+.PHONY : exp5/exp5-2.i
+
+# target to preprocess a source file
+exp5/exp5-2.cpp.i:
+	$(MAKE) -f CMakeFiles\exp5-2.dir\build.make CMakeFiles/exp5-2.dir/exp5/exp5-2.cpp.i
+.PHONY : exp5/exp5-2.cpp.i
+
+exp5/exp5-2.s: exp5/exp5-2.cpp.s
+
+.PHONY : exp5/exp5-2.s
+
+# target to generate assembly for a file
+exp5/exp5-2.cpp.s:
+	$(MAKE) -f CMakeFiles\exp5-2.dir\build.make CMakeFiles/exp5-2.dir/exp5/exp5-2.cpp.s
+.PHONY : exp5/exp5-2.cpp.s
+
+exp6_1.obj: exp6_1.cpp.obj
+
+.PHONY : exp6_1.obj
+
+# target to build an object file
+exp6_1.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/exp6_1.cpp.obj
+.PHONY : exp6_1.cpp.obj
+
+exp6_1.i: exp6_1.cpp.i
+
+.PHONY : exp6_1.i
+
+# target to preprocess a source file
+exp6_1.cpp.i:
+	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/exp6_1.cpp.i
+.PHONY : exp6_1.cpp.i
+
+exp6_1.s: exp6_1.cpp.s
+
+.PHONY : exp6_1.s
+
+# target to generate assembly for a file
+exp6_1.cpp.s:
+	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/exp6_1.cpp.s
+.PHONY : exp6_1.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -480,10 +720,16 @@ help:
 	@echo ... exp1_1
 	@echo ... exp1_2
 	@echo ... exp1_3
+	@echo ... exp4_2_2
 	@echo ... student_main
+	@echo ... exp4_1
 	@echo ... student
 	@echo ... exp1_4
 	@echo ... exp2_1
+	@echo ... exp4_2
+	@echo ... exp5-1
+	@echo ... exp5-2
+	@echo ... exp6-1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... exp1/exp1-2.obj
@@ -510,6 +756,24 @@ help:
 	@echo ... exp2/student_main.obj
 	@echo ... exp2/student_main.i
 	@echo ... exp2/student_main.s
+	@echo ... exp4/exp4_1.obj
+	@echo ... exp4/exp4_1.i
+	@echo ... exp4/exp4_1.s
+	@echo ... exp4/exp4_2.obj
+	@echo ... exp4/exp4_2.i
+	@echo ... exp4/exp4_2.s
+	@echo ... exp4/exp4_2_2.obj
+	@echo ... exp4/exp4_2_2.i
+	@echo ... exp4/exp4_2_2.s
+	@echo ... exp5/exp5-1.obj
+	@echo ... exp5/exp5-1.i
+	@echo ... exp5/exp5-1.s
+	@echo ... exp5/exp5-2.obj
+	@echo ... exp5/exp5-2.i
+	@echo ... exp5/exp5-2.s
+	@echo ... exp6_1.obj
+	@echo ... exp6_1.i
+	@echo ... exp6_1.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

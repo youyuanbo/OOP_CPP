@@ -1,9 +1,8 @@
-//
-// Created by youyuanbo on 2019/3/22.
-//
+
+
+
 #include "student.cpp"
 #include <iostream>
-#include <stdio.h>
 using namespace std;
 
 int main(){

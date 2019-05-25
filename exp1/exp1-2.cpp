@@ -5,11 +5,11 @@
 #include <iostream>
 using namespace std;
 
-//void maxNum(int x, int y, int z){
+//void maxNum(int x, int y, int z){ //使用库函数
 //    cout<<"最大的数是："<<max(max(x,y),z)<<endl;
 //}
 
-void maxNum(int x, int y, int z){
+void maxNum(int x, int y, int z){   //自定义函数
     int maxInt = 0;
     if (x > y){
         if (x > z){
@@ -35,7 +35,7 @@ void maxNum(int x, int y, int z){
 //    cout<<"最大的数是："<<max(max(x,y),z)<<endl;
 //}
 
-void maxNum(double x, double y, double z){
+void maxNum(double x, double y, double z){  //函数重载
     double maxInt = 0.0;
     if (x > y){
         if (x > z){

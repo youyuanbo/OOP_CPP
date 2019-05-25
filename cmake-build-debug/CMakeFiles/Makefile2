@@ -49,19 +49,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Program Files\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\workspace\Clion\Cpp\OOP_CPP
+CMAKE_SOURCE_DIR = E:\workspace\Clion\OOP_CPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug
+CMAKE_BINARY_DIR = E:\workspace\Clion\OOP_CPP\cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/exp2_2.dir
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug
 CMakeFiles/exp2_2.dir/all:
 	$(MAKE) -f CMakeFiles\exp2_2.dir\build.make CMakeFiles/exp2_2.dir/depend
 	$(MAKE) -f CMakeFiles\exp2_2.dir\build.make CMakeFiles/exp2_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target exp2_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target exp2_2"
 .PHONY : CMakeFiles/exp2_2.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/exp2_2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exp2_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp2_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exp2_2.dir/rule
 
 # Convenience name for target.
@@ -107,7 +107,7 @@ clean: CMakeFiles/exp2_2.dir/clean
 CMakeFiles/OOP_CPP.dir/all:
 	$(MAKE) -f CMakeFiles\OOP_CPP.dir\build.make CMakeFiles/OOP_CPP.dir/depend
 	$(MAKE) -f CMakeFiles\OOP_CPP.dir\build.make CMakeFiles/OOP_CPP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target OOP_CPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target OOP_CPP"
 .PHONY : CMakeFiles/OOP_CPP.dir/all
 
 # Include target in all.
@@ -117,9 +117,9 @@ all: CMakeFiles/OOP_CPP.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OOP_CPP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/OOP_CPP.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/OOP_CPP.dir/rule
 
 # Convenience name for target.
@@ -144,7 +144,7 @@ clean: CMakeFiles/OOP_CPP.dir/clean
 CMakeFiles/exp1_1.dir/all:
 	$(MAKE) -f CMakeFiles\exp1_1.dir\build.make CMakeFiles/exp1_1.dir/depend
 	$(MAKE) -f CMakeFiles\exp1_1.dir\build.make CMakeFiles/exp1_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target exp1_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target exp1_1"
 .PHONY : CMakeFiles/exp1_1.dir/all
 
 # Include target in all.
@@ -154,9 +154,9 @@ all: CMakeFiles/exp1_1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exp1_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp1_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exp1_1.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ clean: CMakeFiles/exp1_1.dir/clean
 CMakeFiles/exp1_2.dir/all:
 	$(MAKE) -f CMakeFiles\exp1_2.dir\build.make CMakeFiles/exp1_2.dir/depend
 	$(MAKE) -f CMakeFiles\exp1_2.dir\build.make CMakeFiles/exp1_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target exp1_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target exp1_2"
 .PHONY : CMakeFiles/exp1_2.dir/all
 
 # Include target in all.
@@ -191,9 +191,9 @@ all: CMakeFiles/exp1_2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exp1_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp1_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exp1_2.dir/rule
 
 # Convenience name for target.
@@ -218,7 +218,7 @@ clean: CMakeFiles/exp1_2.dir/clean
 CMakeFiles/exp1_3.dir/all:
 	$(MAKE) -f CMakeFiles\exp1_3.dir\build.make CMakeFiles/exp1_3.dir/depend
 	$(MAKE) -f CMakeFiles\exp1_3.dir\build.make CMakeFiles/exp1_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target exp1_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target exp1_3"
 .PHONY : CMakeFiles/exp1_3.dir/all
 
 # Include target in all.
@@ -228,9 +228,9 @@ all: CMakeFiles/exp1_3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exp1_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp1_3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exp1_3.dir/rule
 
 # Convenience name for target.
@@ -255,7 +255,7 @@ clean: CMakeFiles/exp1_3.dir/clean
 CMakeFiles/exp4_2_2.dir/all:
 	$(MAKE) -f CMakeFiles\exp4_2_2.dir\build.make CMakeFiles/exp4_2_2.dir/depend
 	$(MAKE) -f CMakeFiles\exp4_2_2.dir\build.make CMakeFiles/exp4_2_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target exp4_2_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target exp4_2_2"
 .PHONY : CMakeFiles/exp4_2_2.dir/all
 
 # Include target in all.
@@ -265,9 +265,9 @@ all: CMakeFiles/exp4_2_2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exp4_2_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp4_2_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exp4_2_2.dir/rule
 
 # Convenience name for target.
@@ -292,7 +292,7 @@ clean: CMakeFiles/exp4_2_2.dir/clean
 CMakeFiles/student_main.dir/all:
 	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/depend
 	$(MAKE) -f CMakeFiles\student_main.dir\build.make CMakeFiles/student_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target student_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target student_main"
 .PHONY : CMakeFiles/student_main.dir/all
 
 # Include target in all.
@@ -302,9 +302,9 @@ all: CMakeFiles/student_main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/student_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/student_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/student_main.dir/rule
 
 # Convenience name for target.
@@ -329,7 +329,7 @@ clean: CMakeFiles/student_main.dir/clean
 CMakeFiles/exp4_1.dir/all:
 	$(MAKE) -f CMakeFiles\exp4_1.dir\build.make CMakeFiles/exp4_1.dir/depend
 	$(MAKE) -f CMakeFiles\exp4_1.dir\build.make CMakeFiles/exp4_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target exp4_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target exp4_1"
 .PHONY : CMakeFiles/exp4_1.dir/all
 
 # Include target in all.
@@ -339,9 +339,9 @@ all: CMakeFiles/exp4_1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exp4_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp4_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exp4_1.dir/rule
 
 # Convenience name for target.
@@ -366,7 +366,7 @@ clean: CMakeFiles/exp4_1.dir/clean
 CMakeFiles/student.dir/all:
 	$(MAKE) -f CMakeFiles\student.dir\build.make CMakeFiles/student.dir/depend
 	$(MAKE) -f CMakeFiles\student.dir\build.make CMakeFiles/student.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target student"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target student"
 .PHONY : CMakeFiles/student.dir/all
 
 # Include target in all.
@@ -376,9 +376,9 @@ all: CMakeFiles/student.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/student.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/student.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/student.dir/rule
 
 # Convenience name for target.
@@ -403,7 +403,7 @@ clean: CMakeFiles/student.dir/clean
 CMakeFiles/exp1_4.dir/all:
 	$(MAKE) -f CMakeFiles\exp1_4.dir\build.make CMakeFiles/exp1_4.dir/depend
 	$(MAKE) -f CMakeFiles\exp1_4.dir\build.make CMakeFiles/exp1_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target exp1_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target exp1_4"
 .PHONY : CMakeFiles/exp1_4.dir/all
 
 # Include target in all.
@@ -413,9 +413,9 @@ all: CMakeFiles/exp1_4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exp1_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp1_4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exp1_4.dir/rule
 
 # Convenience name for target.
@@ -440,7 +440,7 @@ clean: CMakeFiles/exp1_4.dir/clean
 CMakeFiles/exp2_1.dir/all:
 	$(MAKE) -f CMakeFiles\exp2_1.dir\build.make CMakeFiles/exp2_1.dir/depend
 	$(MAKE) -f CMakeFiles\exp2_1.dir\build.make CMakeFiles/exp2_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target exp2_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target exp2_1"
 .PHONY : CMakeFiles/exp2_1.dir/all
 
 # Include target in all.
@@ -450,9 +450,9 @@ all: CMakeFiles/exp2_1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exp2_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp2_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exp2_1.dir/rule
 
 # Convenience name for target.
@@ -477,7 +477,7 @@ clean: CMakeFiles/exp2_1.dir/clean
 CMakeFiles/exp4_2.dir/all:
 	$(MAKE) -f CMakeFiles\exp4_2.dir\build.make CMakeFiles/exp4_2.dir/depend
 	$(MAKE) -f CMakeFiles\exp4_2.dir\build.make CMakeFiles/exp4_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target exp4_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target exp4_2"
 .PHONY : CMakeFiles/exp4_2.dir/all
 
 # Include target in all.
@@ -487,9 +487,9 @@ all: CMakeFiles/exp4_2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exp4_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp4_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exp4_2.dir/rule
 
 # Convenience name for target.
@@ -514,7 +514,7 @@ clean: CMakeFiles/exp4_2.dir/clean
 CMakeFiles/exp5-1.dir/all:
 	$(MAKE) -f CMakeFiles\exp5-1.dir\build.make CMakeFiles/exp5-1.dir/depend
 	$(MAKE) -f CMakeFiles\exp5-1.dir\build.make CMakeFiles/exp5-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target exp5-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target exp5-1"
 .PHONY : CMakeFiles/exp5-1.dir/all
 
 # Include target in all.
@@ -524,9 +524,9 @@ all: CMakeFiles/exp5-1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exp5-1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp5-1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exp5-1.dir/rule
 
 # Convenience name for target.
@@ -551,7 +551,7 @@ clean: CMakeFiles/exp5-1.dir/clean
 CMakeFiles/exp5-2.dir/all:
 	$(MAKE) -f CMakeFiles\exp5-2.dir\build.make CMakeFiles/exp5-2.dir/depend
 	$(MAKE) -f CMakeFiles\exp5-2.dir\build.make CMakeFiles/exp5-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target exp5-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target exp5-2"
 .PHONY : CMakeFiles/exp5-2.dir/all
 
 # Include target in all.
@@ -561,9 +561,9 @@ all: CMakeFiles/exp5-2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exp5-2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp5-2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exp5-2.dir/rule
 
 # Convenience name for target.
@@ -588,7 +588,7 @@ clean: CMakeFiles/exp5-2.dir/clean
 CMakeFiles/exp6-1.dir/all:
 	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/depend
 	$(MAKE) -f CMakeFiles\exp6-1.dir\build.make CMakeFiles/exp6-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target exp6-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target exp6-1"
 .PHONY : CMakeFiles/exp6-1.dir/all
 
 # Include target in all.
@@ -598,9 +598,9 @@ all: CMakeFiles/exp6-1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exp6-1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp6-1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\Cpp\OOP_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\Clion\OOP_CPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exp6-1.dir/rule
 
 # Convenience name for target.

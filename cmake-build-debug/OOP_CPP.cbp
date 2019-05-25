@@ -721,6 +721,182 @@
 					<DistClean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="exp7">
+				<Option output="E:/workspace/Clion/OOP_CPP/cmake-build-debug/exp7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/workspace/Clion/OOP_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 exp7"/>
+					<CompileFile command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp7/fast">
+				<Option output="E:/workspace/Clion/OOP_CPP/cmake-build-debug/exp7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/workspace/Clion/OOP_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 exp7/fast"/>
+					<CompileFile command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp8-1">
+				<Option output="E:/workspace/Clion/OOP_CPP/cmake-build-debug/exp8-1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/workspace/Clion/OOP_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 exp8-1"/>
+					<CompileFile command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp8-1/fast">
+				<Option output="E:/workspace/Clion/OOP_CPP/cmake-build-debug/exp8-1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/workspace/Clion/OOP_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 exp8-1/fast"/>
+					<CompileFile command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp8-2">
+				<Option output="E:/workspace/Clion/OOP_CPP/cmake-build-debug/exp8-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/workspace/Clion/OOP_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 exp8-2"/>
+					<CompileFile command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp8-2/fast">
+				<Option output="E:/workspace/Clion/OOP_CPP/cmake-build-debug/exp8-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/workspace/Clion/OOP_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 exp8-2/fast"/>
+					<CompileFile command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp9-1">
+				<Option output="E:/workspace/Clion/OOP_CPP/cmake-build-debug/exp9-1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/workspace/Clion/OOP_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 exp9-1"/>
+					<CompileFile command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp9-1/fast">
+				<Option output="E:/workspace/Clion/OOP_CPP/cmake-build-debug/exp9-1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/workspace/Clion/OOP_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"/>
+					<Add directory="d:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 exp9-1/fast"/>
+					<CompileFile command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/workspace/Clion/OOP_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/workspace/Clion/OOP_CPP/cmake-build-debug"/>
 				<Option type="4"/>
@@ -784,11 +960,23 @@
 		<Unit filename="E:/workspace/Clion/OOP_CPP/exp5/exp5-2.cpp">
 			<Option target="exp5-2"/>
 		</Unit>
-		<Unit filename="E:/workspace/Clion/OOP_CPP/exp6-2.cpp">
+		<Unit filename="E:/workspace/Clion/OOP_CPP/exp6/exp6-2.cpp">
 			<Option target="exp6-2"/>
 		</Unit>
 		<Unit filename="E:/workspace/Clion/OOP_CPP/exp6/exp6_1.cpp">
 			<Option target="exp6_1"/>
+		</Unit>
+		<Unit filename="E:/workspace/Clion/OOP_CPP/exp7/exp7.cpp">
+			<Option target="exp7"/>
+		</Unit>
+		<Unit filename="E:/workspace/Clion/OOP_CPP/exp8/exp8-1.cpp">
+			<Option target="exp8-1"/>
+		</Unit>
+		<Unit filename="E:/workspace/Clion/OOP_CPP/exp8/exp8-2.cpp">
+			<Option target="exp8-2"/>
+		</Unit>
+		<Unit filename="E:/workspace/Clion/OOP_CPP/exp9-1.cpp">
+			<Option target="exp9-1"/>
 		</Unit>
 		<Unit filename="E:/workspace/Clion/OOP_CPP/main.cpp">
 			<Option target="OOP_CPP"/>

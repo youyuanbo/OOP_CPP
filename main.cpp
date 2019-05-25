@@ -1,23 +1,21 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
+#include <typeinfo>
+#include <random>
+#include <ctime>
+#include <iomanip>
 using namespace std;
 
+ostream &operator<<(ostream &stream, char num){
+    stream<<num<<"\t";
+    return stream;
+}
+
 int main() {
-    vector<vector<int>> vector1 = {{0,0,0},{0,0,0},{0,0,0}};
-    for (int i = 0; i < 3; i++) {
-        cout<<"please input"<<endl;
-        for (int j = 0; j < 3; j++) {
-            cin>>vector1[i][j];
-        }
-    }
+    cout<<'a'<<endl;
 
-    for (int k = 0; k < 3; k++) {
-        for (int i = 0; i < 3; i++) {
-            cout<<vector1[k][i];
-        }
-        cout<<endl;
-    }
 
-    system("pause");
+//    system("pause");
     return 0;
 }

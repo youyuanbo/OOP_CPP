@@ -1,19 +1,17 @@
 #include <iostream>
 #include <vector>
+#include <string>
 #include <algorithm>
-#include <typeinfo>
-#include <random>
-#include <ctime>
-#include <iomanip>
 using namespace std;
 
-ostream &operator<<(ostream &stream, char num){
-    stream<<num<<"\t";
-    return stream;
-}
 
 int main() {
-    cout<<'a'<<endl;
+    vector<int> vector1 = {9,8,7,6,5,4,3,2,1};
+    sort(vector1.begin(), vector1.end());
+    while (! vector1.empty()){
+        cout << vector1.front() << " ";
+        vector1.erase(vector1.begin());
+    }
 
 
 //    system("pause");

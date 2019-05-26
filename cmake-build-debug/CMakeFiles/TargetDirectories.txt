@@ -7,6 +7,7 @@ E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp4_2_2.dir
 E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/student_main.dir
 E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp4_1.dir
 E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/student.dir
+E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp11-1.dir
 E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp1_4.dir
 E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp2_1.dir
 E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp4_2.dir
@@ -20,4 +21,8 @@ E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp8-2.dir
 E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp9-1.dir
 E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp9-2.dir
+E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp10-1.dir
+E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp10-2.dir
+E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp11-2.dir
+E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/exp12.dir
 E:/workspace/Clion/OOP_CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

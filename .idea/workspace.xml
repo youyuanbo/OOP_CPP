@@ -2,17 +2,22 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="OOP_CPP" targetName="student_main" />
+      <config projectName="OOP_CPP" targetName="exp7" />
+      <config projectName="OOP_CPP" targetName="OOP_CPP" />
       <config projectName="OOP_CPP" targetName="student" />
       <config projectName="OOP_CPP" targetName="exp9-2" />
       <config projectName="OOP_CPP" targetName="exp9-1" />
       <config projectName="OOP_CPP" targetName="exp8-2" />
       <config projectName="OOP_CPP" targetName="exp8-1" />
+      <config projectName="OOP_CPP" targetName="exp12" />
       <config projectName="OOP_CPP" targetName="exp6-2" />
       <config projectName="OOP_CPP" targetName="exp5-2" />
       <config projectName="OOP_CPP" targetName="exp5-1" />
-      <config projectName="OOP_CPP" targetName="student_main" />
-      <config projectName="OOP_CPP" targetName="exp7" />
-      <config projectName="OOP_CPP" targetName="OOP_CPP" />
+      <config projectName="OOP_CPP" targetName="exp11-2" />
+      <config projectName="OOP_CPP" targetName="exp10-2" />
+      <config projectName="OOP_CPP" targetName="exp11-1" />
+      <config projectName="OOP_CPP" targetName="exp10-1" />
       <config projectName="OOP_CPP" targetName="exp6_1" />
       <config projectName="OOP_CPP" targetName="exp4_2_2" />
       <config projectName="OOP_CPP" targetName="exp4_2" />
@@ -32,7 +37,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7f8c905-9ebd-4a84-affe-caf61f5b5871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exp9-2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp10/exp10-1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp10/exp10-2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp11/exp11-1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp11/exp11-2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp12/exp12.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
@@ -42,7 +51,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/OOP_CPP.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OOP_CPP.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp9-1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/exp9/exp9-1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp9-2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/exp9/exp9-2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,68 +108,64 @@
     <session id="-1280316247">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.875" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="7559" />
-          <entry key="h" value="1" />
-          <entry key="txt" value="111" />
+          <entry key="cpp" value="11251" />
+          <entry key="h" value="4" />
+          <entry key="txt" value="169" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="76" />
-          <entry key="ObjectiveC" value="7560" />
-          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="CMakeLists.txt" value="133" />
+          <entry key="ObjectiveC" value="11255" />
+          <entry key="PLAIN_TEXT" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="15" />
-          <entry key="h" value="6" />
+          <entry key="cpp" value="26" />
+          <entry key="exp10-2 (disassembly)" value="2" />
+          <entry key="exp12 (disassembly)" value="1" />
+          <entry key="h" value="9" />
           <entry key="iosfwd" value="1" />
+          <entry key="string" value="3" />
           <entry key="tcc" value="1" />
           <entry key="typeinfo" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="25" />
+          <entry key="Disassembly" value="3" />
+          <entry key="ObjectiveC" value="42" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="120">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exp9/exp9-1.cpp">
+        <entry file="file://$PROJECT_DIR$/exp12/exp12.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exp9-2.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="24" column="19" lean-forward="true" selection-end-line="74" selection-end-column="1" />
+            <state relative-caret-position="408">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding>
                 <element signature="e#43#62#0" expanded="true" />
               </folding>
@@ -220,11 +226,17 @@
         <option value="$PROJECT_DIR$/exp8-1.cpp" />
         <option value="$PROJECT_DIR$/exp8/exp8-1.cpp" />
         <option value="$PROJECT_DIR$/exp8-2.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/exp9-1.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/exp9/exp9-1.cpp" />
         <option value="$PROJECT_DIR$/exp9-2.cpp" />
+        <option value="$PROJECT_DIR$/exp10-1.cpp" />
+        <option value="D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/bits/stringfwd.h" />
+        <option value="$PROJECT_DIR$/exp10-2.cpp" />
+        <option value="$PROJECT_DIR$/exp11-1.cpp" />
+        <option value="$PROJECT_DIR$/exp11-2.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/exp12.cpp" />
       </list>
     </option>
   </component>
@@ -248,6 +260,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,16 +268,10 @@
               <item name="OOP_CPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOP_CPP" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OOP_CPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP_CPP" type="462c0819:PsiDirectoryNode" />
-              <item name="exp9" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,20 +279,20 @@
     <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\Clion\OOP_CPP\exp12" />
+      <recent name="E:\workspace\Clion\OOP_CPP\exp11" />
+      <recent name="E:\workspace\Clion\OOP_CPP\exp10" />
+      <recent name="E:\workspace\Clion\OOP_CPP\exp9" />
+      <recent name="E:\workspace\Clion\OOP_CPP\exp8" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\Clion\OOP_CPP" />
       <recent name="E:\workspace\Clion\Cpp\OOP_CPP\exp5" />
       <recent name="E:\workspace\Clion\Cpp\OOP_CPP\exp4" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\Clion\OOP_CPP\exp9" />
-      <recent name="E:\workspace\Clion\OOP_CPP\exp8" />
-      <recent name="E:\workspace\Clion\OOP_CPP\exp7" />
-      <recent name="E:\workspace\Clion\OOP_CPP\exp6" />
-      <recent name="E:\workspace\Clion\OOP_CPP\实验指导书与实验报告模板" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,13 +307,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.exp9-2">
+  <component name="RunManager" selected="Application.exp12">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="OOP_CPP" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOP_CPP" TARGET_NAME="OOP_CPP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOP_CPP" RUN_TARGET_NAME="OOP_CPP">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exp10-1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOP_CPP" TARGET_NAME="exp10-1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOP_CPP" RUN_TARGET_NAME="exp10-1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exp10-2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOP_CPP" TARGET_NAME="exp10-2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOP_CPP" RUN_TARGET_NAME="exp10-2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exp11-1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOP_CPP" TARGET_NAME="exp11-1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOP_CPP" RUN_TARGET_NAME="exp11-1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exp11-2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOP_CPP" TARGET_NAME="exp11-2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOP_CPP" RUN_TARGET_NAME="exp11-2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exp12" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOP_CPP" TARGET_NAME="exp12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOP_CPP" RUN_TARGET_NAME="exp12">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -413,6 +445,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.exp10-1" />
+      <item itemvalue="Application.exp10-2" />
+      <item itemvalue="Application.exp11-1" />
+      <item itemvalue="Application.exp11-2" />
+      <item itemvalue="Application.exp12" />
       <item itemvalue="Application.exp1_1" />
       <item itemvalue="Application.exp1_2" />
       <item itemvalue="Application.exp1_3" />
@@ -454,7 +491,8 @@
       <workItem from="1558758350395" duration="22000" />
       <workItem from="1558764387356" duration="20125000" />
       <workItem from="1558791201428" duration="3906000" />
-      <workItem from="1558830305251" duration="2754000" />
+      <workItem from="1558830305251" duration="5071000" />
+      <workItem from="1558836367620" duration="8817000" />
     </task>
     <task id="LOCAL-00001" summary="exp1">
       <created>1553249089037</created>
@@ -505,28 +543,34 @@
       <option name="project" value="LOCAL" />
       <updated>1558801894902</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提交实验9-2">
+      <created>1558833256559</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558833256559</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53994000" />
+    <option name="totallyTimeSpent" value="65128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917898" weight="0.18532526" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.18835099" />
       <window_info id="Structure" order="1" sideWeight="0.500821" side_tool="true" weight="0.14750378" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30377668" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46141216" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38752052" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.31198686" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.58128077" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -574,7 +618,8 @@
     <MESSAGE value="提交实验7与实验8的代码" />
     <MESSAGE value="提交实验8-1" />
     <MESSAGE value="提交实验9-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交实验9-1" />
+    <MESSAGE value="提交实验9-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交实验9-2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/exp2/exp2_3.cpp" />
@@ -730,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="919" selection-start-line="919" selection-end-line="919" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/bits/random.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -754,43 +792,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp8/exp8-1.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
-          <folding>
-            <element signature="e#43#62#0" expanded="true" />
-            <element signature="e#149#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/iosfwd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="135" column="36" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
-          <folding>
-            <element signature="e#1289#1316#0" expanded="true" />
-            <element signature="e#2646#2704#0" expanded="true" />
-            <element signature="e#4066#4124#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/exp9/exp9-2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="-593">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#43#62#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -801,13 +816,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp9-2.cpp">
+    <entry file="file://D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/bits/stringfwd.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="24" column="19" lean-forward="true" selection-end-line="74" selection-end-column="1" />
+        <state relative-caret-position="266">
+          <caret line="64" column="41" lean-forward="true" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp10/exp10-1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
             <element signature="e#43#62#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp10/exp10-2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#43#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp8/exp8-1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#43#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp11/exp11-2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp11/exp11-1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#43#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="1074" column="14" selection-start-line="1074" selection-start-column="14" selection-end-line="1074" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp12/exp12.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#43#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>

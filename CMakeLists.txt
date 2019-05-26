@@ -31,4 +31,12 @@ add_executable(exp8-1 exp8/exp8-1.cpp)
 add_executable(exp8-2 exp8/exp8-2.cpp)
 
 add_executable(exp9-1 exp9/exp9-1.cpp)
-add_executable(exp9-2 exp9-2.cpp)
+add_executable(exp9-2 exp9/exp9-2.cpp)
+
+add_executable(exp10-1 exp10/exp10-1.cpp)
+add_executable(exp10-2 exp10/exp10-2.cpp)
+
+add_executable(exp11-1 exp11/exp11-1.cpp)
+add_executable(exp11-2 exp11/exp11-2.cpp)
+
+add_executable(exp12 exp12/exp12.cpp)

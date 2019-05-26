@@ -227,6 +227,19 @@ student/fast:
 .PHONY : student/fast
 
 #=============================================================================
+# Target rules for targets named exp11-1
+
+# Build rule for target.
+exp11-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp11-1
+.PHONY : exp11-1
+
+# fast build rule for target.
+exp11-1/fast:
+	$(MAKE) -f CMakeFiles\exp11-1.dir\build.make CMakeFiles/exp11-1.dir/build
+.PHONY : exp11-1/fast
+
+#=============================================================================
 # Target rules for targets named exp1_4
 
 # Build rule for target.
@@ -382,6 +395,58 @@ exp9-2/fast:
 	$(MAKE) -f CMakeFiles\exp9-2.dir\build.make CMakeFiles/exp9-2.dir/build
 .PHONY : exp9-2/fast
 
+#=============================================================================
+# Target rules for targets named exp10-1
+
+# Build rule for target.
+exp10-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp10-1
+.PHONY : exp10-1
+
+# fast build rule for target.
+exp10-1/fast:
+	$(MAKE) -f CMakeFiles\exp10-1.dir\build.make CMakeFiles/exp10-1.dir/build
+.PHONY : exp10-1/fast
+
+#=============================================================================
+# Target rules for targets named exp10-2
+
+# Build rule for target.
+exp10-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp10-2
+.PHONY : exp10-2
+
+# fast build rule for target.
+exp10-2/fast:
+	$(MAKE) -f CMakeFiles\exp10-2.dir\build.make CMakeFiles/exp10-2.dir/build
+.PHONY : exp10-2/fast
+
+#=============================================================================
+# Target rules for targets named exp11-2
+
+# Build rule for target.
+exp11-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp11-2
+.PHONY : exp11-2
+
+# fast build rule for target.
+exp11-2/fast:
+	$(MAKE) -f CMakeFiles\exp11-2.dir\build.make CMakeFiles/exp11-2.dir/build
+.PHONY : exp11-2/fast
+
+#=============================================================================
+# Target rules for targets named exp12
+
+# Build rule for target.
+exp12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp12
+.PHONY : exp12
+
+# fast build rule for target.
+exp12/fast:
+	$(MAKE) -f CMakeFiles\exp12.dir\build.make CMakeFiles/exp12.dir/build
+.PHONY : exp12/fast
+
 exp1/exp1-2.obj: exp1/exp1-2.cpp.obj
 
 .PHONY : exp1/exp1-2.obj
@@ -489,6 +554,141 @@ exp1/exp1_1.s: exp1/exp1_1.cpp.s
 exp1/exp1_1.cpp.s:
 	$(MAKE) -f CMakeFiles\exp1_1.dir\build.make CMakeFiles/exp1_1.dir/exp1/exp1_1.cpp.s
 .PHONY : exp1/exp1_1.cpp.s
+
+exp10/exp10-1.obj: exp10/exp10-1.cpp.obj
+
+.PHONY : exp10/exp10-1.obj
+
+# target to build an object file
+exp10/exp10-1.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp10-1.dir\build.make CMakeFiles/exp10-1.dir/exp10/exp10-1.cpp.obj
+.PHONY : exp10/exp10-1.cpp.obj
+
+exp10/exp10-1.i: exp10/exp10-1.cpp.i
+
+.PHONY : exp10/exp10-1.i
+
+# target to preprocess a source file
+exp10/exp10-1.cpp.i:
+	$(MAKE) -f CMakeFiles\exp10-1.dir\build.make CMakeFiles/exp10-1.dir/exp10/exp10-1.cpp.i
+.PHONY : exp10/exp10-1.cpp.i
+
+exp10/exp10-1.s: exp10/exp10-1.cpp.s
+
+.PHONY : exp10/exp10-1.s
+
+# target to generate assembly for a file
+exp10/exp10-1.cpp.s:
+	$(MAKE) -f CMakeFiles\exp10-1.dir\build.make CMakeFiles/exp10-1.dir/exp10/exp10-1.cpp.s
+.PHONY : exp10/exp10-1.cpp.s
+
+exp10/exp10-2.obj: exp10/exp10-2.cpp.obj
+
+.PHONY : exp10/exp10-2.obj
+
+# target to build an object file
+exp10/exp10-2.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp10-2.dir\build.make CMakeFiles/exp10-2.dir/exp10/exp10-2.cpp.obj
+.PHONY : exp10/exp10-2.cpp.obj
+
+exp10/exp10-2.i: exp10/exp10-2.cpp.i
+
+.PHONY : exp10/exp10-2.i
+
+# target to preprocess a source file
+exp10/exp10-2.cpp.i:
+	$(MAKE) -f CMakeFiles\exp10-2.dir\build.make CMakeFiles/exp10-2.dir/exp10/exp10-2.cpp.i
+.PHONY : exp10/exp10-2.cpp.i
+
+exp10/exp10-2.s: exp10/exp10-2.cpp.s
+
+.PHONY : exp10/exp10-2.s
+
+# target to generate assembly for a file
+exp10/exp10-2.cpp.s:
+	$(MAKE) -f CMakeFiles\exp10-2.dir\build.make CMakeFiles/exp10-2.dir/exp10/exp10-2.cpp.s
+.PHONY : exp10/exp10-2.cpp.s
+
+exp11/exp11-1.obj: exp11/exp11-1.cpp.obj
+
+.PHONY : exp11/exp11-1.obj
+
+# target to build an object file
+exp11/exp11-1.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp11-1.dir\build.make CMakeFiles/exp11-1.dir/exp11/exp11-1.cpp.obj
+.PHONY : exp11/exp11-1.cpp.obj
+
+exp11/exp11-1.i: exp11/exp11-1.cpp.i
+
+.PHONY : exp11/exp11-1.i
+
+# target to preprocess a source file
+exp11/exp11-1.cpp.i:
+	$(MAKE) -f CMakeFiles\exp11-1.dir\build.make CMakeFiles/exp11-1.dir/exp11/exp11-1.cpp.i
+.PHONY : exp11/exp11-1.cpp.i
+
+exp11/exp11-1.s: exp11/exp11-1.cpp.s
+
+.PHONY : exp11/exp11-1.s
+
+# target to generate assembly for a file
+exp11/exp11-1.cpp.s:
+	$(MAKE) -f CMakeFiles\exp11-1.dir\build.make CMakeFiles/exp11-1.dir/exp11/exp11-1.cpp.s
+.PHONY : exp11/exp11-1.cpp.s
+
+exp11/exp11-2.obj: exp11/exp11-2.cpp.obj
+
+.PHONY : exp11/exp11-2.obj
+
+# target to build an object file
+exp11/exp11-2.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp11-2.dir\build.make CMakeFiles/exp11-2.dir/exp11/exp11-2.cpp.obj
+.PHONY : exp11/exp11-2.cpp.obj
+
+exp11/exp11-2.i: exp11/exp11-2.cpp.i
+
+.PHONY : exp11/exp11-2.i
+
+# target to preprocess a source file
+exp11/exp11-2.cpp.i:
+	$(MAKE) -f CMakeFiles\exp11-2.dir\build.make CMakeFiles/exp11-2.dir/exp11/exp11-2.cpp.i
+.PHONY : exp11/exp11-2.cpp.i
+
+exp11/exp11-2.s: exp11/exp11-2.cpp.s
+
+.PHONY : exp11/exp11-2.s
+
+# target to generate assembly for a file
+exp11/exp11-2.cpp.s:
+	$(MAKE) -f CMakeFiles\exp11-2.dir\build.make CMakeFiles/exp11-2.dir/exp11/exp11-2.cpp.s
+.PHONY : exp11/exp11-2.cpp.s
+
+exp12/exp12.obj: exp12/exp12.cpp.obj
+
+.PHONY : exp12/exp12.obj
+
+# target to build an object file
+exp12/exp12.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp12.dir\build.make CMakeFiles/exp12.dir/exp12/exp12.cpp.obj
+.PHONY : exp12/exp12.cpp.obj
+
+exp12/exp12.i: exp12/exp12.cpp.i
+
+.PHONY : exp12/exp12.i
+
+# target to preprocess a source file
+exp12/exp12.cpp.i:
+	$(MAKE) -f CMakeFiles\exp12.dir\build.make CMakeFiles/exp12.dir/exp12/exp12.cpp.i
+.PHONY : exp12/exp12.cpp.i
+
+exp12/exp12.s: exp12/exp12.cpp.s
+
+.PHONY : exp12/exp12.s
+
+# target to generate assembly for a file
+exp12/exp12.cpp.s:
+	$(MAKE) -f CMakeFiles\exp12.dir\build.make CMakeFiles/exp12.dir/exp12/exp12.cpp.s
+.PHONY : exp12/exp12.cpp.s
 
 exp2/exp2_1.obj: exp2/exp2_1.cpp.obj
 
@@ -868,33 +1068,6 @@ exp8/exp8-2.cpp.s:
 	$(MAKE) -f CMakeFiles\exp8-2.dir\build.make CMakeFiles/exp8-2.dir/exp8/exp8-2.cpp.s
 .PHONY : exp8/exp8-2.cpp.s
 
-exp9-2.obj: exp9-2.cpp.obj
-
-.PHONY : exp9-2.obj
-
-# target to build an object file
-exp9-2.cpp.obj:
-	$(MAKE) -f CMakeFiles\exp9-2.dir\build.make CMakeFiles/exp9-2.dir/exp9-2.cpp.obj
-.PHONY : exp9-2.cpp.obj
-
-exp9-2.i: exp9-2.cpp.i
-
-.PHONY : exp9-2.i
-
-# target to preprocess a source file
-exp9-2.cpp.i:
-	$(MAKE) -f CMakeFiles\exp9-2.dir\build.make CMakeFiles/exp9-2.dir/exp9-2.cpp.i
-.PHONY : exp9-2.cpp.i
-
-exp9-2.s: exp9-2.cpp.s
-
-.PHONY : exp9-2.s
-
-# target to generate assembly for a file
-exp9-2.cpp.s:
-	$(MAKE) -f CMakeFiles\exp9-2.dir\build.make CMakeFiles/exp9-2.dir/exp9-2.cpp.s
-.PHONY : exp9-2.cpp.s
-
 exp9/exp9-1.obj: exp9/exp9-1.cpp.obj
 
 .PHONY : exp9/exp9-1.obj
@@ -921,6 +1094,33 @@ exp9/exp9-1.s: exp9/exp9-1.cpp.s
 exp9/exp9-1.cpp.s:
 	$(MAKE) -f CMakeFiles\exp9-1.dir\build.make CMakeFiles/exp9-1.dir/exp9/exp9-1.cpp.s
 .PHONY : exp9/exp9-1.cpp.s
+
+exp9/exp9-2.obj: exp9/exp9-2.cpp.obj
+
+.PHONY : exp9/exp9-2.obj
+
+# target to build an object file
+exp9/exp9-2.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp9-2.dir\build.make CMakeFiles/exp9-2.dir/exp9/exp9-2.cpp.obj
+.PHONY : exp9/exp9-2.cpp.obj
+
+exp9/exp9-2.i: exp9/exp9-2.cpp.i
+
+.PHONY : exp9/exp9-2.i
+
+# target to preprocess a source file
+exp9/exp9-2.cpp.i:
+	$(MAKE) -f CMakeFiles\exp9-2.dir\build.make CMakeFiles/exp9-2.dir/exp9/exp9-2.cpp.i
+.PHONY : exp9/exp9-2.cpp.i
+
+exp9/exp9-2.s: exp9/exp9-2.cpp.s
+
+.PHONY : exp9/exp9-2.s
+
+# target to generate assembly for a file
+exp9/exp9-2.cpp.s:
+	$(MAKE) -f CMakeFiles\exp9-2.dir\build.make CMakeFiles/exp9-2.dir/exp9/exp9-2.cpp.s
+.PHONY : exp9/exp9-2.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -964,6 +1164,7 @@ help:
 	@echo ... student_main
 	@echo ... exp4_1
 	@echo ... student
+	@echo ... exp11-1
 	@echo ... exp1_4
 	@echo ... exp2_1
 	@echo ... exp4_2
@@ -977,6 +1178,10 @@ help:
 	@echo ... exp9-1
 	@echo ... edit_cache
 	@echo ... exp9-2
+	@echo ... exp10-1
+	@echo ... exp10-2
+	@echo ... exp11-2
+	@echo ... exp12
 	@echo ... rebuild_cache
 	@echo ... exp1/exp1-2.obj
 	@echo ... exp1/exp1-2.i
@@ -990,6 +1195,21 @@ help:
 	@echo ... exp1/exp1_1.obj
 	@echo ... exp1/exp1_1.i
 	@echo ... exp1/exp1_1.s
+	@echo ... exp10/exp10-1.obj
+	@echo ... exp10/exp10-1.i
+	@echo ... exp10/exp10-1.s
+	@echo ... exp10/exp10-2.obj
+	@echo ... exp10/exp10-2.i
+	@echo ... exp10/exp10-2.s
+	@echo ... exp11/exp11-1.obj
+	@echo ... exp11/exp11-1.i
+	@echo ... exp11/exp11-1.s
+	@echo ... exp11/exp11-2.obj
+	@echo ... exp11/exp11-2.i
+	@echo ... exp11/exp11-2.s
+	@echo ... exp12/exp12.obj
+	@echo ... exp12/exp12.i
+	@echo ... exp12/exp12.s
 	@echo ... exp2/exp2_1.obj
 	@echo ... exp2/exp2_1.i
 	@echo ... exp2/exp2_1.s
@@ -1032,12 +1252,12 @@ help:
 	@echo ... exp8/exp8-2.obj
 	@echo ... exp8/exp8-2.i
 	@echo ... exp8/exp8-2.s
-	@echo ... exp9-2.obj
-	@echo ... exp9-2.i
-	@echo ... exp9-2.s
 	@echo ... exp9/exp9-1.obj
 	@echo ... exp9/exp9-1.i
 	@echo ... exp9/exp9-1.s
+	@echo ... exp9/exp9-2.obj
+	@echo ... exp9/exp9-2.i
+	@echo ... exp9/exp9-2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
